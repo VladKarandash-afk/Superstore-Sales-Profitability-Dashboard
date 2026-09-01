@@ -2,9 +2,9 @@
 
 ## 📝 Project Overview
 
-This project is an advanced Excel-based Business Intelligence dashboard built to analyze e-commerce sales performance, profitability, and customer segmentation contained in [Superstore Dataset](https://www.kaggle.com/datasets/ishanshrivastava28/superstore-sales). It demonstrates a full-stack data analysis workflow: from raw data extraction and transformation (ETL) to relational data modeling, DAX calculations, and dynamic visual reporting.
+This project is an advanced Excel-based Business Intelligence dashboard built to analyse e-commerce sales performance, profitability, and customer segmentation contained in [Superstore Dataset](https://www.kaggle.com/datasets/ishanshrivastava28/superstore-sales). It demonstrates a full-stack data analysis workflow: from raw **data extraction** and **transformation (ETL)** to relational **data modelling**, **DAX** calculations, and dynamic **visual reporting**.
 
-The main deliverable of this project is the interactive file: Dashboard.xlsx
+The main deliverable of this project is the interactive file: `Dashboard.xlsx`
 
 ## 🛠️ Tech Stack & Tools Used
 
@@ -29,8 +29,6 @@ The main deliverable of this project is the interactive file: Dashboard.xlsx
 * Imported raw sales data (.csv) and fixed locale-specific date formatting errors using proper Data Type Locales (e.g., UK/US formats).
 
 * Cleaned string data by extracting text before delimiters to normalize customer names.
-
-* Synthetic Data Generation: Since the original dataset lacked cost metrics, I created a custom Net Profit column using Power Query M language conditional logic to assign different profit margins based on product categories (e.g., Technology = 30%, Furniture = 15%).
 
 ### 2. Data Modeling (Power Pivot)
 
